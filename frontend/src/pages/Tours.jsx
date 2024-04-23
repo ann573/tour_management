@@ -21,8 +21,11 @@ const Tours = () => {
   },[page]);
 
   return <>
-    <CommonSection title={"Tất cả các tour"} />
+    <CommonSection />
     <section>
+      <div className='title'>
+          <h1>Tất cả các tour</h1>
+      </div>
       <Container>
         <Row>
           <SearchBar/>

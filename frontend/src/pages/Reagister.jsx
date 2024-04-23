@@ -52,7 +52,7 @@ const Reagister = () => {
                 </FormGroup>
                 <Button className='btn secondary__btn auth_btn' type='submit'>Đăng ký</Button>
               </Form>
-              <p>Đã có tài khoản? <Link to='/login'>Login</Link></p>
+              <p>Đã có tài khoản? <Link to='/login'>Đăng nhập</Link></p>
             </div>
           </div>
         </Col>

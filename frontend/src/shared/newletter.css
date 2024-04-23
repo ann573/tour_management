@@ -31,6 +31,7 @@
     padding: 0.5rem;
     margin-bottom: 2rem;
     border-radius: 5px;
+    
 }
 
 .newsletter_input input
@@ -38,6 +39,7 @@
     border: none;
     font-size: 1rem;
     color: var(--heading-color);
+    width: 100%;
 }
 
 .newsletter_input input:focus

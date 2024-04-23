@@ -14,7 +14,12 @@
     cursor: pointer;
     font-weight: 500;
 }
-
+.title
+{
+    text-align: center;
+    align-items: center;
+    font-family: Bookman ;
+}
 .active_page
 {
     background: var(--secondary-color);

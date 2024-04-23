@@ -47,9 +47,9 @@ const Login = () => {
                 <FormGroup>
                   <input type="password" placeholder='Password' required id="password" onChange={handleChange} />
                 </FormGroup>
-                <Button className='btn secondary__btn auth_btn' type='submit'>Login</Button>
+                <Button className='btn secondary__btn auth_btn' type='submit'>Đăng nhập</Button>
               </Form>
-              <p>Don't have an account? <Link to='/register'>Create</Link></p>
+              <p>Không có tài khoản? <Link to='/reagister'>Tạo tài khoản</Link></p>
             </div>
           </div>
         </Col>
